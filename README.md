@@ -86,12 +86,12 @@ sudo service nginx restart
 These configurations enable communication between the Frontend and Backend using Private IP on the Backend VM. Ensure that the IPs and ports are correctly set to match your environment.
 
 
-<==========Deployment via Docker============>
-connect via vm
-install docker
-Make Dockerfile
-docker build . -t frontend
-docker run -d -p 8090:80 frontend
+<==========Deployment via Docker============> <br>
+connect via vm <br>
+install docker <br>
+Make Dockerfile <br>
+docker build . -t frontend <br>
+docker run -d -p 8090:80 frontend <br>
 
 Goto browser 8080:ip
 
