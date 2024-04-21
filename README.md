@@ -93,7 +93,7 @@ Make Dockerfile <br>
 docker build . -t frontend <br>
 docker run -d -p 8090:80 frontend <br>
 
-Goto browser 8080:ip
+Goto browser 8090:ip
 
 
 
